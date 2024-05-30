@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.Navbar{
+/* .Navbar{
   text-align: left;
   color: blue;
   background-color: darkorange;
@@ -12,6 +12,50 @@
   font-style: italic;
   font-weight: 500;
   box-shadow: #282c34 50px;
+} */
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem 0;
+  list-style: none;
+  font-weight: 450;
+  margin-top: 0;
+  box-shadow: 0 8px 4px 0 rgba(0,0,0,.2);
+  background-color: rgb(182, 216, 193);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+
+nav a:hover {
+  text-decoration: underline;
+  
+}
+
+nav p,
+a {
+  margin: 0;
+  color: #444444;
+  text-decoration: none;
+}
+
+nav h1 {
+
+  text-align: center;
+  /* margin: 1; */
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 2.5rem;
+  background-color: rgb(29, 122, 60);
+  color:whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+nav h1 {
+
+  text-align: center;
 
 }
 
