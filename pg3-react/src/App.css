@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.Navbar{
+  text-align: left;
+  color: blue;
+  background-color: darkorange;
+  text-shadow: #282c34;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  font-style: italic;
+  font-weight: 500;
+  box-shadow: #282c34 50px;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
