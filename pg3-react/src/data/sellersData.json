@@ -1,12 +1,19 @@
-[
+{
+  "sellers": [
     {
-        "id": "1",
-        "firstname": "Praveen",
-        "surname": "Akkineni"        
+      "id": "1",
+      "firstname": "Praveen",
+      "surname": "Akkineni"
     },
     {
-        "id": "2",
-        "firstname": "Morley",
-        "surname": "Crossley"    
+      "id": "2",
+      "firstname": "Morley",
+      "surname": "Crossley"
+    },
+    {
+      "id": "1d8d",
+      "first": "Simon",
+      "last": "James"
     }
-]
+  ]
+}

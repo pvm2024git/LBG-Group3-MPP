@@ -1,14 +1,15 @@
-
+import SellerForm from "../forms/SellerForm";
 
 const Manageseller = () => {
 
 
     return(
 
-        <div>
+        <div className="reg-seller">
 
-        <p>Register a new seller</p>
-        <p>Display all sellers</p>
+        <p>New Seller Registration</p>
+        <br />
+        <SellerForm />       
         
         </div>
 
