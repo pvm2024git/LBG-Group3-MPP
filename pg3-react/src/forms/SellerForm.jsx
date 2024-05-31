@@ -35,17 +35,6 @@ const SellerForm = () => {
             onChange={(e) => setLast(e.target.value)} />
 
             <br /><br />
-{/* 
-            <label>Title:</label>
-            <select
-            value={title}
-            onChange={(e) => setTitle(e.target.value)} >
-                <option value="mr">Mr</option>
-                <option value="mrs">Mrs</option>
-            <option value="dr">Dr</option>
-            </select>
-
-            <br /> */}
 
             <button>Register</button>
 
