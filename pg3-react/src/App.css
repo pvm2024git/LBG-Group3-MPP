@@ -29,6 +29,44 @@ nav ul {
   
   }
 
+.sellerbutton{
+  text-align: center;
+}
+
+.reg-seller{
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-left: 75px;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(29, 122, 60);
+  background-color:rgb(182, 216, 193) ;
+
+}
+
+.formtitle{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+/* .sellerform{
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-left: 20px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(29, 122, 60);
+  background-color:rgb(182, 216, 193) ;
+} */
+
 nav a:hover {
   text-decoration: underline;
   

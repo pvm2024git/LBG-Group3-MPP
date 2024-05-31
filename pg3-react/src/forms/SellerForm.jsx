@@ -21,7 +21,7 @@ const SellerForm = () => {
     }
 
     return (
-        <form onSubmit={handlesubmit}>
+        <form onSubmit={handlesubmit} className= "sellerform">
             <label>First Name: </label>
             <input type="text"
             required value={first}
@@ -35,9 +35,9 @@ const SellerForm = () => {
             onChange={(e) => setLast(e.target.value)} />
 
             <br /><br />
-
+            <div className='sellerbutton'>
             <button>Register</button>
-
+            </div>
 
         </form>
     )

@@ -7,7 +7,7 @@ const Manageseller = () => {
 
         <div className="reg-seller">
 
-        <p>New Seller Registration</p>
+        <p className="formtitle">New Seller Registration</p>
         <br />
         <SellerForm />       
         
