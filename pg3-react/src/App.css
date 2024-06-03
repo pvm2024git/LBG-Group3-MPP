@@ -62,11 +62,11 @@ nav ul {
   
   }
 
-.sellerbutton{
+.sellerbutton, .buyerbutton {
   text-align: center;
 }
 
-.reg-seller{
+.reg-seller, .reg-buyer  {
   padding: 10px;
   text-align: left;
   border-style: solid;
@@ -77,9 +77,13 @@ nav ul {
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
-  background-color:rgb(182, 216, 193);
-  
+  background-color:rgb(182, 216, 193); 
 }
+
+
+  
+
+
 
 .formtitle{
   text-align: center;
