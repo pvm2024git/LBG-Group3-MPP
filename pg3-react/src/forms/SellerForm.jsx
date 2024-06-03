@@ -43,9 +43,14 @@ const SellerForm = () => {
 
         </form>
         
+        
         </div>
 
     )
+
+    
+
+    
 
 }
 export default SellerForm;
