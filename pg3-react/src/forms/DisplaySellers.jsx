@@ -14,7 +14,7 @@ const Displaysellers = () => {
      
     return(
         <div>
-            <table class="table-striped">
+            <table className="table-striped">
                 <thead>
                     <tr>
                     <th>First Name</th>
