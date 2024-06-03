@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Displaysellers from './DisplaySellers';
 
 const SellerForm = () => {
     const [first, setFirst] = useState('');
@@ -17,10 +18,11 @@ const SellerForm = () => {
         
         setFirst('');
         setLast('');
-        
+            
     }
 
     return (
+        <div>
         <form onSubmit={handlesubmit} className= "sellerform">
             <label>First Name: </label>
             <input type="text"
@@ -41,6 +43,9 @@ const SellerForm = () => {
 
         </form>
         
+        
+        </div>
+
     )
 
     
