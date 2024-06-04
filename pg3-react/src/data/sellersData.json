@@ -63,7 +63,7 @@
   ],
   "buyers": [
     {
-      "id": 1,
+      "id": "1",
       "first": "Praveen",
       "last": "Akki"
     },
@@ -75,15 +75,41 @@
   ],
   "properties": [
     {
-      "id": 1,
+      "id": "1",
       "location": "London",
       "bedrooms": 4,
       "bathrooms": 2,
       "type": "detached",
       "price": 3000000,
       "display flag": "active",
-      "imageUrl": "https://user-images.githubusercontent.com/118732445/203823558-15336f0e-0d89-409d-bc00-b259ae243d73.jpg"
-
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "2",
+      "location": "Manchester",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "detached",
+      "price": 2000000,
+      "display flag": "active",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "1659",
+      "type": "Detached",
+      "location": "Leeds",
+      "bedrooms": "3",
+      "bathrooms": "2",
+      "price": "300000"
+    },
+    {
+      "id": "3a1e",
+      "type": "Terraced",
+      "location": "Bristol",
+      "bedrooms": "3",
+      "bathrooms": "1",
+      "price": "250000",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
     }
   ]
 }

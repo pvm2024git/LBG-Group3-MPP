@@ -1,22 +1,30 @@
 
-import PropertyCard from "../components/PropertyCard"
+import PropertyCard from "../forms/PropertyCard";
+import PropertyForm from "../forms/PropertyForm";
 import sellersData from '../data/sellersData.json';
 
 
-const PropertyPage=() => {
+const ManageProperty =() => {
     return (
       <>
-      <h1 className="header">OUR PRoperties</h1>
-      <div className="items-grid">
-        {
-          sellersData.properties.map((item)=> (
-            <PropertyCard{...item}/>
-          ))
-        }
-      </div>
-      </>
+        <div className="mng-seller">
+        <p className="formtitle">New Property Registration</p>
+        <br />
+            <PropertyForm />       
+        </div>
+
+        <div>
+          {
+            sellersData.properties.map((item) => (
+              <PropertyCard{...item}/>              
+
+            ))
+          }
+        </div>
+        </>
+      
   
   );
   }
 
-export default PropertyPage;
+export default ManageProperty;

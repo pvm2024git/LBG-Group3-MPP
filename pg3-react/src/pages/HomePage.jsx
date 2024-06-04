@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import '../App.css'
+
  
 const HomePage = () => {
   return (
@@ -9,6 +10,8 @@ const HomePage = () => {
         <p>Buy, Sell & Rent properties</p>
         <p>We offer a range of properties</p>
       </div>
+             
+      
     </div>
   )
 }
