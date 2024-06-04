@@ -15,7 +15,6 @@ const PropertyPage=() => {
         }
       </div>
       </>
-  
   );
   }
 
