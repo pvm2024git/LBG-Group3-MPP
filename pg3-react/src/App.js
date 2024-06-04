@@ -7,7 +7,6 @@ import Managebooking from './pages/ManageBooking';
 import Managebuyer from './pages/ManageBuyer';
 import Manageproperties from './pages/ManageProperties';
 import Manageseller from './pages/ManageSelller';
-import PropertyCard from './components/PropertyCard';
 
 
 function App() {

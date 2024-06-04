@@ -47,6 +47,19 @@ th {
   box-shadow: #282c34 50px;
 } */
 
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: black 
+
+}
+
+.wrapper {
+  border-radius: 3px;
+  text-align: center;
+}
+
 nav ul {
   display: flex;
   align-items: center;
