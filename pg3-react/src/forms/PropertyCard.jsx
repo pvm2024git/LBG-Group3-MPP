@@ -2,12 +2,14 @@
 import React, { useState } from "react";
 
 
-const PropertyCard = ({ location, bedrooms, bathrooms, type, price, imageUrl }) => {
+const PropertyCard = ({ location, bedrooms, bathrooms, type, price, imageUrl, showstatus }) => {
 
-  let [isButtonPressed, setButtonName] = useState ("Add to Cart") 
+  let [isButtonPressed, setButtonName] = useState ("Withdraw property")
+  let [isPropertyPressed, setPropertyName] = useState ("For SALE")
 
   const addCart = () => {
-    setButtonName(isButtonPressed === "Add to Cart" ? "In Cart" : "Add to Cart" )
+    setButtonName(isButtonPressed === "Withdraw property" ? "For Sale" : "Withdraw property" )
+    setPropertyName(isPropertyPressed === "For SALE" ? "Property Withdrawn" : "For Sale")
   }
 
   return (
@@ -18,6 +20,7 @@ const PropertyCard = ({ location, bedrooms, bathrooms, type, price, imageUrl }) 
       <h3 className="bathrooms">Bathrooms: {bathrooms}</h3>
       <h3 className="type">Type: {type}</h3>
       <p className="price">Price: £{price}</p>
+      <p className="Propstatus">Property Status: {isPropertyPressed}</p>
       <button classname="add-cart-button" onClick={addCart}>
         {isButtonPressed}
       </button>
