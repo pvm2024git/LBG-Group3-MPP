@@ -1,20 +1,22 @@
 
-const Manageproperties = () => {
+import PropertyCard from "../components/PropertyCard"
+import sellersData from '../data/sellersData.json';
 
 
-    return(
+const PropertyPage=() => {
+    return (
+      <>
+      <h1 className="header">OUR PRoperties</h1>
+      <div className="items-grid">
+        {
+          sellersData.properties.map((item)=> (
+            <PropertyCard{...item}/>
+          ))
+        }
+      </div>
+      </>
+  
+  );
+  }
 
-        <div>
-
-        <p>Add Properties</p>
-        <p>Display all properties</p>
-        <p>Find and display properties with given search criteria on price, bedrooms, bathroom and garden</p>
-        <p>Withdraw a property</p>
-        <p>Resubmit a property</p>
-
-        </div>
-
-    );
-}
-
-export default Manageproperties;
+export default PropertyPage;

@@ -72,5 +72,18 @@
       "first": "Lisa",
       "last": "Cole"
     }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "location": "London",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "detached",
+      "price": 3000000,
+      "display flag": "active",
+      "imageUrl": "https://user-images.githubusercontent.com/118732445/203823558-15336f0e-0d89-409d-bc00-b259ae243d73.jpg"
+
+    }
   ]
 }
