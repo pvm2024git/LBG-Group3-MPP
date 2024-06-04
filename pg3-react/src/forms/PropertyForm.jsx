@@ -37,14 +37,14 @@ const PropertyForm = () => {
             required value={type}
             onChange={(e) => setType(e.target.value)} />
 
-            <br /><br />
+            {/* <br /><br /> */}
 
             <label>Location: </label>
             <input type="text"
             required value={location}
             onChange={(e) => setLocation(e.target.value)} />
 
-            <br /><br />
+            {/* <br /><br /> */}
 
             <label>Bedrooms: </label>
             <input type="text"
@@ -58,14 +58,14 @@ const PropertyForm = () => {
             required value={bathrooms}
             onChange={(e) => setBathrooms(e.target.value)} />
 
-            <br /><br />
+            {/* <br /><br /> */}
 
             <label>Price: </label>
             <input type="text"
             required value={price}
             onChange={(e) => setPrice(e.target.value)} />
 
-            <br /><br />
+            {/* <br /><br /> */}
 
             <label>ImageUrl: </label>
             <input type="text"

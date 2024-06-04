@@ -79,7 +79,7 @@ nav ul {
   text-align: center;
 }
 
-.reg-seller, .reg-buyer  {
+.reg-seller, .reg-buyer, .mng-property  {
   padding: 10px;
   text-align: left;
   border-style: solid;

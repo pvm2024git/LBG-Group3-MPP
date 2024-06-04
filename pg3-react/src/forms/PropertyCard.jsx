@@ -5,11 +5,11 @@ import React, { useState } from "react";
 const PropertyCard = ({ location, bedrooms, bathrooms, type, price, imageUrl, showstatus }) => {
 
   let [isButtonPressed, setButtonName] = useState ("Withdraw property")
-  let [isPropertyPressed, setPropertyName] = useState ("For SALE")
+  let [isPropertyPressed, setPropertyName] = useState ("For Sale")
 
   const addCart = () => {
     setButtonName(isButtonPressed === "Withdraw property" ? "For Sale" : "Withdraw property" )
-    setPropertyName(isPropertyPressed === "For SALE" ? "Property Withdrawn" : "For Sale")
+    setPropertyName(isPropertyPressed === "For Sale" ? "Withdrawn" : "For Sale")
   }
 
   return (

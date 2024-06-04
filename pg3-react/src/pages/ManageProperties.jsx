@@ -7,8 +7,8 @@ import sellersData from '../data/sellersData.json';
 const ManageProperty =() => {
     return (
       <>
-        <div className="mng-seller">
-        <p className="formtitle">New Property Registration</p>
+        <div className="mng-property">
+        <p>New Property Registration</p>
         <br />
             <PropertyForm />       
         </div>

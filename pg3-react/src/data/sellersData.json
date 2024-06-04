@@ -59,6 +59,11 @@
       "id": "fbe9",
       "first": "Paula",
       "last": "Adams"
+    },
+    {
+      "id": "ab4d",
+      "first": "Elon",
+      "last": "Musk"
     }
   ],
   "buyers": [
@@ -71,6 +76,11 @@
       "id": "d183",
       "first": "Lisa",
       "last": "Cole"
+    },
+    {
+      "id": "20d9",
+      "first": "Morley",
+      "last": "Crossley"
     }
   ],
   "properties": [
@@ -112,6 +122,15 @@
       "bathrooms": "1",
       "price": "250000",
       "propstatus": "WITHDRAWN",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "aac4",
+      "type": "End of Terrace",
+      "location": "Edinburgh",
+      "bedrooms": "6",
+      "bathrooms": "0",
+      "price": "150000",
       "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
     }
   ]
