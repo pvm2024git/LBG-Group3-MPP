@@ -64,6 +64,11 @@
       "id": "ab4d",
       "first": "Elon",
       "last": "Musk"
+    },
+    {
+      "id": "bb7d",
+      "first": "Paula",
+      "last": "Vennels"
     }
   ],
   "buyers": [
@@ -81,6 +86,11 @@
       "id": "20d9",
       "first": "Morley",
       "last": "Crossley"
+    },
+    {
+      "id": "2a2f",
+      "first": "Jordan",
+      "last": "Jones"
     }
   ],
   "properties": [
@@ -131,6 +141,15 @@
       "bedrooms": "6",
       "bathrooms": "0",
       "price": "150000",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "6db7",
+      "type": "Mid terrace",
+      "location": "Halifax",
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "price": "100000",
       "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
     }
   ]
