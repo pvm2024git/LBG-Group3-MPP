@@ -58,6 +58,29 @@ th {
 .wrapper {
   border-radius: 3px;
   text-align: center;
+
+}
+
+.filterform {
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-left: 75px;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:rgb(182, 216, 193); 
+  position: absolute; top: 190px; left: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 nav ul {

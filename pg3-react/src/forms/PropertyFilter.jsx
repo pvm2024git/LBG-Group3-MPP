@@ -28,7 +28,9 @@ function PropertyFilter() {
 
   return (
     <div className="filterform">
-     
+
+      <h4>Search Properties</h4>
+
       <select value={filter} onChange={handleFilterChange}>
         <option value="">All Locations</option>
         {locations.map(location => (
