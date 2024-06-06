@@ -51,7 +51,8 @@ th {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  color: black 
+  color: black;
+  margin-top: 20px;
 
 }
 
@@ -98,11 +99,47 @@ nav ul {
   
   }
 
-.sellerbutton, .buyerbutton {
+.sellerbutton, .buyerbutton  {
   text-align: center;
 }
 
-.reg-seller, .reg-buyer, .mng-property  {
+.propbutton {
+  text-align: center;
+}
+
+.propsearch{
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 500px;
+  padding-right: 500px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:rgb(182, 216, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items-grid { 
+
+  display: flex; 
+
+  flex-wrap: wrap; 
+
+  gap: 1rem; 
+
+} 
+
+.reg-seller, .reg-buyer, .mng-property {
   padding: 10px;
   text-align: left;
   border-style: solid;
@@ -114,6 +151,10 @@ nav ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   background-color:rgb(182, 216, 193); 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 1rem; 
+
 }
 
 

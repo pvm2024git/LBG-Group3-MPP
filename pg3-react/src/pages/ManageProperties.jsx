@@ -3,6 +3,8 @@ import PropertyCard from "../forms/PropertyCard";
 import PropertyForm from "../forms/PropertyForm";
 import PropertyFilter from "../forms/PropertyFilter";
 import sellersData from '../data/sellersData.json';
+import '../App.css'
+
 
 
 const ManageProperty =() => {
@@ -14,7 +16,7 @@ const ManageProperty =() => {
             <PropertyForm />       
         </div>
 
-        <div>
+        <div  className="items-grid">
           {
             sellersData.properties.map((item) => (
               <PropertyCard{...item}/>              

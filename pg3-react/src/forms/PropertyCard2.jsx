@@ -2,7 +2,7 @@ import React from 'react';
 
 const PropertyCard2 = ({ property }) => {
   return (
-    <div>
+    <div className="wrapper">
       <img src={property.imageUrl} alt={`${property.location} property`} />
       <h2>{property.location}</h2>
       <p>Price: £{property.price}</p>

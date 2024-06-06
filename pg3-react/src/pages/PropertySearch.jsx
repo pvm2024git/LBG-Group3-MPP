@@ -12,8 +12,8 @@ const PropertySearch = ({ setSearchCriteria }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+    <form className= "propsearch" onSubmit={handleSubmit}>
+      <div > 
         <label>Min Price: </label>
         <input type="number" value={price} onChange={(e) => setPrice(e.target.value)} />
       </div>
@@ -29,7 +29,7 @@ const PropertySearch = ({ setSearchCriteria }) => {
         <label>Garden: </label>
         <input type="checkbox" checked={garden} onChange={(e) => setGarden(e.target.checked)} />
       </div>
-      <button type="submit">Search</button>
+      <button type="submit" className="propbutton">Search</button>
     </form>
   );
 };

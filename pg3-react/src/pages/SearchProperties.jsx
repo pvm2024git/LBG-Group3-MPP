@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropertySearch from './PropertySearch';
 import PropertyList from './PropertyList';
+import '../App.css'
 
 const SearchProperties = () => {
   const [searchCriteria, setSearchCriteria] = useState({});
@@ -36,7 +37,7 @@ const SearchProperties = () => {
   }, [searchCriteria]);
 
   return (
-    <div>
+    <div className="items-grid">
       <h1>Property Search</h1>
       <PropertySearch setSearchCriteria={setSearchCriteria} />
       <PropertyList properties={filteredProperties} />
