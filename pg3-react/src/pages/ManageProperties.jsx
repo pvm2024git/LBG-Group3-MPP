@@ -14,12 +14,6 @@ const ManageProperty =() => {
             <PropertyForm />       
         </div>
 
-        <div className="fltr-property">
-        <p>Search Properties</p>
-        <br />
-            <PropertyFilter />       
-        </div>
-
         <div>
           {
             sellersData.properties.map((item) => (

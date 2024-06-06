@@ -7,6 +7,7 @@ import Managebooking from './pages/ManageBooking';
 import Managebuyer from './pages/ManageBuyer';
 import Manageproperties from './pages/ManageProperties';
 import Manageseller from './pages/ManageSelller';
+import SearchProperties from './pages/SearchProperties';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/manageseller" element={<Manageseller />} />
           <Route path="/managebuyer" element={<Managebuyer />} />
           <Route path="/manageproperties" element={<Manageproperties />} />
+          <Route path="/searchproperties" element={<SearchProperties />} />
           <Route path="/managebooking" element={<Managebooking />} />
       </Routes>
       </BrowserRouter>
