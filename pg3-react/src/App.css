@@ -52,14 +52,38 @@ th {
   flex-wrap: wrap;
   gap: 1rem;
   color: black;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 80px;    
+  
+}
 
+.head-prop-search {
+  margin-left: 775px; 
+  
 }
 
 .wrapper {
   border-radius: 3px;
   text-align: center;
+  border: solid;
+  border-color:  rgb(29, 122, 60);
+  width: 400px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
+.filter-card{
+  border: solid;
+  border-color:  rgb(29, 122, 60);
+  width: fit-content;
+}
+
+.prop-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 40px;
+  gap: 1.5rem;  
 }
 
 .filterform {
@@ -113,11 +137,10 @@ nav ul {
   padding-bottom: 30px;
   padding-left: 500px;
   padding-right: 500px;
-  text-align: left;
+  text-align: center;
   border-style: solid;
   width: fit-content;
   border-color: rgb(29, 122, 60);
-  margin-left: 75px;
   margin-right: 75px;
   margin-top: 75px;
   font-size: large;
@@ -127,14 +150,14 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
+   
+  
 }
 
 .items-grid { 
 
   display: flex; 
-
   flex-wrap: wrap; 
-
   gap: 1rem; 
 
 } 
@@ -154,7 +177,7 @@ nav ul {
   display: flex; 
   flex-wrap: wrap; 
   gap: 1rem; 
-
+  
 }
 
 

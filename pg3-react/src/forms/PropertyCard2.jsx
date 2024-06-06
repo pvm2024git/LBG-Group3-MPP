@@ -2,13 +2,13 @@ import React from 'react';
 
 const PropertyCard2 = ({ property }) => {
   return (
-    <div className="wrapper">
-      <img src={property.imageUrl} alt={`${property.location} property`} />
-      <h2>{property.location}</h2>
-      <p>Price: £{property.price}</p>
+    <div className="filter-card">
+      <img src={property.imageUrl} alt={`${property.location} property`} width={395} height={250}/>
+      <p>Type: {property.type}</p>
       <p>Bedrooms: {property.bedrooms}</p>
       <p>Bathrooms: {property.bathrooms}</p>
-      <p>Type: {property.type}</p>
+      <p>Location: {property.location}</p>
+      <p>Price: £{property.price}</p>
     </div>
   );
 };

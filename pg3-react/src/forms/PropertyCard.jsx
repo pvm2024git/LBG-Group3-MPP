@@ -14,11 +14,11 @@ const PropertyCard = ({ location, bedrooms, bathrooms, type, price, imageUrl }) 
 
   return (
     <div className="wrapper">
-      <img src={imageUrl} width={300} height={250} alt= "property image" />
-      <h3 className="location">Location: {location}</h3>
-      <h3 className="bedrooms">Bedrooms: {bedrooms}</h3>
-      <h3 className="bathrooms">Bathrooms: {bathrooms}</h3>
-      <h3 className="type">Type: {type}</h3>
+      <img src={imageUrl} width={395} height={250} alt= "property image" />
+      <p className="type">Type: {type}</p>
+      <p className="bedrooms">Bedrooms: {bedrooms}</p>
+      <p className="bathrooms">Bathrooms: {bathrooms}</p>      
+      <p className="location">Location: {location}</p>
       <p className="price">Price: £{price.toLocaleString()}</p>
       <p className="Propstatus">Property Status: {isPropertyPressed}</p>
       <button classname="add-cart-button" onClick={addCart}>

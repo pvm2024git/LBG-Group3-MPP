@@ -3,7 +3,7 @@ import PropertyCard2 from '../forms/PropertyCard2';
 
 const PropertyList = ({ properties }) => {
   return (
-    <div>
+    <div className="prop-list">
       {properties.length > 0 ? (
         properties.map(property => (
           <PropertyCard2 key={property.id} property={property} />
