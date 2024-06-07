@@ -69,6 +69,11 @@
       "id": "bb7d",
       "first": "Paula",
       "last": "Vennels"
+    },
+    {
+      "id": "6ddf",
+      "first": "Praveen",
+      "last": "Mandiram"
     }
   ],
   "buyers": [
@@ -91,6 +96,11 @@
       "id": "2a2f",
       "first": "Jordan",
       "last": "Jones"
+    },
+    {
+      "id": "ffa9",
+      "first": "James",
+      "last": "Wilkinson"
     }
   ],
   "properties": [
@@ -99,8 +109,8 @@
       "location": "London",
       "bedrooms": 4,
       "bathrooms": 2,
-      "type": "detached",
-      "price": 3000000,
+      "type": "Detached",
+      "price": 300000,
       "propstatus": "FOR SALE",
       "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
     },
@@ -109,8 +119,8 @@
       "location": "Manchester",
       "bedrooms": 3,
       "bathrooms": 2,
-      "type": "detached",
-      "price": 2000000,
+      "type": "Detached",
+      "price": 200000,
       "propstatus": "FOR SALE",
       "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
     },
@@ -150,6 +160,51 @@
       "bedrooms": "1",
       "bathrooms": "1",
       "price": "100000",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "df1a",
+      "type": "Semi-Detached",
+      "location": "Birmingham",
+      "bedrooms": "3",
+      "bathrooms": "1",
+      "price": "300000",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "0768",
+      "type": "Flat",
+      "location": "London",
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "price": "400000",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "c3bc",
+      "type": "Flat",
+      "location": "Manchester",
+      "bedrooms": "2",
+      "bathrooms": "1",
+      "price": "200000",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "f04c",
+      "type": "Flat",
+      "location": "Glasgow",
+      "bedrooms": "3",
+      "bathrooms": "1",
+      "price": "250000",
+      "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
+    },
+    {
+      "id": "41dd",
+      "type": "Terraced",
+      "location": "Cardiff",
+      "bedrooms": "3",
+      "bathrooms": "1",
+      "price": "350000",
       "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
     }
   ]

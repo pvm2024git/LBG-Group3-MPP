@@ -21,9 +21,9 @@ const Navbar = () => {
         <li>
           <Link to="/searchproperties">Search Properties</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/managebooking">Manage Booking</Link>
-        </li>
+        </li> */}
       </ul>
       </nav>    
   );

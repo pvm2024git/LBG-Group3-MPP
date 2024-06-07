@@ -61,7 +61,7 @@ const PropertyForm = () => {
             {/* <br /><br /> */}
 
             <label>Price: </label>
-            <input type="text"
+            <input type="number"
             required value={price}
             onChange={(e) => setPrice(e.target.value)} />
 

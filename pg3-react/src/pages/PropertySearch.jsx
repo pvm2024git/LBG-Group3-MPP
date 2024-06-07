@@ -15,7 +15,7 @@ const PropertySearch = ({ setSearchCriteria }) => {
   return (
     <form className= "propsearch" onSubmit={handleSubmit}>
       <div > 
-        <label>Min Price: </label>
+        <label>Max Price: </label>
         <input type="number" value={price} onChange={(e) => setPrice(e.target.value)} />
       </div>
       <div>
