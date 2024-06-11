@@ -11,13 +11,13 @@ pipeline {
  
            }
        }
-    //    stage('Delete') {
-    //        steps {
+       stage('Delete') {
+           steps {
             
-    //         bat 'pm2 delete all'
+            bat 'pm2 delete all'
            
-    //        }
-    //    }
+           }
+       }
        stage('Run') {
            steps {
             bat '''
