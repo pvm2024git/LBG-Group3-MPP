@@ -4,7 +4,10 @@ pipeline {
        stage('Install') {
            steps {
             
-            bat 'npm install'            
+            bat '''
+            cd pg3-react
+            npm install
+            '''            
  
            }
        }
@@ -17,8 +20,10 @@ pipeline {
     //    }
        stage('Run') {
            steps {
-            
-            bat 'pm2 start "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" -- start'
+            bat '''
+            cd pg3-react
+            pm2 start "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" -- start
+            '''
  
            }
        }
