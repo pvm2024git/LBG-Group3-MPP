@@ -8,14 +8,14 @@ import '../App.css'
 
 
 const ManageProperty =() => {
-    return (
+      return (
       <>
         <div className="mng-property">
         <p>New Property Registration</p>
         <br />
             <PropertyForm />       
         </div>
-
+        
         <div  className="items-grid">
           {
             sellersData.properties.map((item) => (
