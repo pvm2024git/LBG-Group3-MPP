@@ -1,5 +1,3 @@
-import sellersData from '../data/sellersData.json';
- 
 import React, { useEffect, useState } from 'react';
 
 const Displaysellers = () => {
@@ -15,9 +13,7 @@ const Displaysellers = () => {
     };
 
     fetchSellerData();
-  }, [sellers]);
-    
-
+  }, [sellers]);  
 
      
     return(
