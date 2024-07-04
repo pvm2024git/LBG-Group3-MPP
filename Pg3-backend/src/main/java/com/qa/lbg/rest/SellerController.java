@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value="seller")
+@RequestMapping("/sellers")
+@CrossOrigin
 public class SellerController {
 
     private SellerService service;
@@ -34,9 +35,9 @@ public class SellerController {
 
     @PatchMapping("/update/{sellerId}")
     public Seller updateSeller(@PathVariable int sellerId,
-                               @RequestParam(required = false) String firstName,
-                               @RequestParam(required = false) String surname) {
-        return this.service.updateSeller(sellerId, firstName, surname);
+                               @RequestParam(required = false) String first,
+                               @RequestParam(required = false) String last) {
+        return this.service.updateSeller(sellerId, first, last);
     }
 
 //    @GetMapping("/person/{id}")

@@ -13,9 +13,9 @@ public class Pg3backendApplication {
 		SpringApplication.run(Pg3backendApplication.class, args);
 	}
 
-	@GetMapping("/hello")
-	public String greeting() {
-		return "Hello, World!";
-	}
+//	@GetMapping("/hello")
+//	public String greeting() {
+//		return "Hello, World!";
+//	}
 
 }

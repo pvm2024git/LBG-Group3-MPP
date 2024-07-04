@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value="properties")
+@CrossOrigin
 public class PropertiesController {
 
     private PropertiesService service;
@@ -35,11 +36,12 @@ public class PropertiesController {
     @PatchMapping("/update/{propertyId}")
     public Properties updateProperties(@PathVariable int propertyId,
                                 @RequestParam(required = false) String type,
+                                @RequestParam(required = false) String location,
                                 @RequestParam(required = false) Integer bedrooms,
                                 @RequestParam(required = false) Integer bathrooms,
                                 @RequestParam(required = false) Integer price,
                                 @RequestParam(required = false) String imageUrl) {
-        return this.service.updateProperties(propertyId, type, bedrooms, bathrooms, price, imageUrl);
+        return this.service.updateProperties(propertyId, type, location, bedrooms, bathrooms, price, imageUrl);
     }
 
 }

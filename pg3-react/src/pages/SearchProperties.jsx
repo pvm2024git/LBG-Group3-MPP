@@ -9,7 +9,7 @@ const SearchProperties = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('http://localhost:8000/properties');
+      const response = await fetch('http://localhost:8001/properties/getAll');
       const data = await response.json();
       setFilteredProperties(data);
     };
@@ -19,7 +19,7 @@ const SearchProperties = () => {
 
   useEffect(() => {
     const fetchFilteredData = async () => {
-      const response = await fetch('http://localhost:8000/properties');
+      const response = await fetch('http://localhost:8001/properties/getAll');
       const data = await response.json();
 
       const filtered = data.filter(property => {

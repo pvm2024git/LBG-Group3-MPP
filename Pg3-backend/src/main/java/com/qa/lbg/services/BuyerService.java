@@ -32,13 +32,13 @@ public class BuyerService {
     }
 
     public Buyer updateBuyer(int buyerId,
-                               String firstName,
-                               String surname) {
+                               String first,
+                               String last) {
 
         Buyer toUpdate = this.repo.findById(buyerId).get();
 
-        if (firstName != null) toUpdate.setFirstName(firstName);
-        if (surname != null) toUpdate.setSurname(surname);
+        if (first != null) toUpdate.setFirst(first);
+        if (last != null) toUpdate.setLast(last);
         return this.repo.save(toUpdate);
     }
 

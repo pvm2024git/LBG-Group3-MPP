@@ -8,7 +8,7 @@ const BuyerForm = () => {
         e.preventDefault();
         const buyer = { first, last }
 
-        fetch('http://localhost:8000/buyers',
+        fetch('http://localhost:8001/buyers/create',
         {
             method: 'POST',
             headers: { "Content-Type" : "application/json" },
