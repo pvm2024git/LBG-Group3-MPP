@@ -32,6 +32,7 @@ public class PropertiesService {
 
     public Properties updateProperties(int propertyId,
                                 String type,
+                                String location,
                                 Integer bedrooms,
                                 Integer bathrooms,
                                 Integer price,
@@ -40,6 +41,7 @@ public class PropertiesService {
         Properties toUpdate = this.repo.findById(propertyId).get();
 
         if (type != null) toUpdate.setType(type);
+        if (location != null) toUpdate.setLocation(location);
         if (bedrooms != null) toUpdate.setBedrooms(bedrooms);
         if (bathrooms != null) toUpdate.setBathrooms(bathrooms);
         if (price != null) toUpdate.setPrice(price);

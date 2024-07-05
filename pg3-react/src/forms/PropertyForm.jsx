@@ -13,7 +13,7 @@ const PropertyForm = () => {
         e.preventDefault();
         const property = { type, location, bedrooms, bathrooms, price, imageUrl }
 
-        fetch('http://localhost:8000/properties',
+        fetch('http://localhost:8001/properties/create',
         {
             method: 'POST',
             headers: { "Content-Type" : "application/json" },

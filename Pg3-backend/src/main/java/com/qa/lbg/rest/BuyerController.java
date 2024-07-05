@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value="buyer")
+@RequestMapping(value="buyers")
+@CrossOrigin
 public class BuyerController {
 
     private BuyerService service;
@@ -34,9 +35,9 @@ public class BuyerController {
 
     @PatchMapping("/update/{buyerId}")
     public Buyer updateBuyer(@PathVariable int buyerId,
-                               @RequestParam(required = false) String firstName,
-                               @RequestParam(required = false) String surname) {
-        return this.service.updateBuyer(buyerId, firstName, surname);
+                               @RequestParam(required = false) String first,
+                               @RequestParam(required = false) String last) {
+        return this.service.updateBuyer(buyerId, first, last);
     }
 
 //    @GetMapping("/person/{id}")

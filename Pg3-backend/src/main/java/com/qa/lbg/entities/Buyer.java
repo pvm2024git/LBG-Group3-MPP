@@ -10,16 +10,16 @@ public class Buyer {
     private Integer buyerId;
 
 //    @Column(name = "full_name", nullable = false, unique = true)
-    private String firstName;
+    private String first;
 
-    private String surname;
+    private String last;
 
     public Buyer() {}
 
-    public Buyer(Integer buyerId, String firstName, String surname) {
+    public Buyer(Integer buyerId, String first, String last) {
         this.buyerId = buyerId;
-        this.firstName = firstName;
-        this.surname = surname;
+        this.first = first;
+        this.last = last;
     }
 
     public Integer getBuyerId() {
@@ -30,28 +30,28 @@ public class Buyer {
         this.buyerId = buyerId;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getFirst() {
+        return first;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setFirst(String first) {
+        this.first = first;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getLast() {
+        return last;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setLast(String last) {
+        this.last = last;
     }
 
     @Override
     public String toString() {
         return "Seller{" +
                 "Buyer Id=" + buyerId +
-                ", First Name='" + firstName + '\'' +
-                ", Surname='" + surname + '\'' +
+                ", First Name='" + first + '\'' +
+                ", Last Name ='" + last + '\'' +
                 '}';
     }
 }

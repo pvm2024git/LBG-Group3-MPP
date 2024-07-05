@@ -9,7 +9,7 @@ function PropertyFilter() {
   useEffect(() => {
     // fetch('./sellersData.json')
     // fetch('../data/sellersData.json')
-    fetch('http://localhost:8000/properties')
+    fetch('http://localhost:8001/properties/getAll')
       .then(response => response.json())
       .then(data => {
         setItems(data);

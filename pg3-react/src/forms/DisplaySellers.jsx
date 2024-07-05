@@ -1,28 +1,38 @@
-import sellersData from '../data/sellersData.json';
- 
+import React, { useEffect, useState } from 'react';
+
 const Displaysellers = () => {
 
-          const SellerData=sellersData.sellers.map((sellers) => {
-          return (
-          <tr>    
-           <td>{sellers.first}</td>        
-           <td>{sellers.last}</td>
-           </tr>
-          )
-          }
-        )      
+  const [sellers, setSellers] = useState([]);
+
+  useEffect(() => {
+    const fetchSellerData = async () => {
+      const response = await fetch('http://localhost:8001/sellers/getAll');
+      const data = await response.json();
+      setSellers(data);
+    
+    };
+
+    fetchSellerData();
+  }, [sellers]);  
+
      
     return(
         <div>
             <table className="table-striped">
                 <thead>
                     <tr>
-                    <th>First Name</th>
-                    <th>Surname</th>
+                        <th>First Name</th>
+                        <th>Surname</th>
                     </tr>
                 </thead>
                 <tbody>
-                        {SellerData}
+                    
+                     {sellers.map(seller => (
+                     <tr>
+                        <td>{seller.first}</td>
+                        <td>{seller.last}</td>
+                     </tr>
+                     ))}
                 </tbody>
             </table>
         </div>

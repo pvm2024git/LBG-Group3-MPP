@@ -9,7 +9,7 @@ const SellerForm = () => {
         e.preventDefault();
         const seller = { first, last }
 
-        fetch('http://localhost:8000/sellers',
+        fetch('http://localhost:8001/sellers/create',
         {
             method: 'POST',
             headers: { "Content-Type" : "application/json" },
