@@ -105,13 +105,13 @@ public class Properties {
     }
 
 
-    public List<Bookings> getBookings() {
-        return bookings;
-    }
-
-    public void setPets(List<Bookings> pets) {
-        this.bookings = bookings;
-    }
+//    public List<Bookings> getBookings() {
+//        return bookings;
+//    }
+//
+//    public void setPets(List<Bookings> pets) {
+//        this.bookings = bookings;
+//    }
 
 
 
