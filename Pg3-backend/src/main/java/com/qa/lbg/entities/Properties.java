@@ -2,6 +2,8 @@ package com.qa.lbg.entities;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 public class Properties {
 
@@ -101,6 +103,16 @@ public class Properties {
     public void setSeller(Seller seller) {
         this.seller = seller;
     }
+
+
+    public List<Bookings> getBookings() {
+        return bookings;
+    }
+
+    public void setPets(List<Bookings> pets) {
+        this.bookings = bookings;
+    }
+
 
 
 }
