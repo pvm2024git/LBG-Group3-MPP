@@ -1,5 +1,5 @@
 INSERT INTO `properties`(property_id, type, location, bedrooms, bathrooms, price, image_url) VALUES (
-    34,
+    1,
     'Flat',
     'Manchester',
     4,
