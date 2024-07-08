@@ -24,23 +24,23 @@ public class SellerService {
           return this.repo.save(seller);
     }
 
-    public Seller removeSeller(int sellerId) {
-
-        Seller remove = this.repo.findById(sellerId).get();
-        this.repo.deleteById(sellerId);
-          return remove;
-    }
-
-    public Seller updateSeller(int sellerId,
-                               String first,
-                               String last) {
-
-        Seller toUpdate = this.repo.findById(sellerId).get();
-
-        if (first != null) toUpdate.setFirst(first);
-        if (last != null) toUpdate.setLast(last);
-        return this.repo.save(toUpdate);
-    }
+//    public Seller removeSeller(int sellerId) {
+//
+//        Seller remove = this.repo.findById(sellerId).get();
+//        this.repo.deleteById(sellerId);
+//          return remove;
+//    }
+//
+//    public Seller updateSeller(int sellerId,
+//                               String first,
+//                               String last) {
+//
+//        Seller toUpdate = this.repo.findById(sellerId).get();
+//
+//        if (first != null) toUpdate.setFirst(first);
+//        if (last != null) toUpdate.setLast(last);
+//        return this.repo.save(toUpdate);
+//    }
 
 
 

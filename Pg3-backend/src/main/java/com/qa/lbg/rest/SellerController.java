@@ -28,17 +28,17 @@ public class SellerController {
         return this.service.createSeller(seller);
     }
 
-    @DeleteMapping("/remove/{sellerId}")
-    public Seller removeSeller(@PathVariable int sellerId) {
-        return this.service.removeSeller(sellerId);
-    }
-
-    @PatchMapping("/update/{sellerId}")
-    public Seller updateSeller(@PathVariable int sellerId,
-                               @RequestParam(required = false) String first,
-                               @RequestParam(required = false) String last) {
-        return this.service.updateSeller(sellerId, first, last);
-    }
+//    @DeleteMapping("/remove/{sellerId}")
+//    public Seller removeSeller(@PathVariable int sellerId) {
+//        return this.service.removeSeller(sellerId);
+//    }
+//
+//    @PatchMapping("/update/{sellerId}")
+//    public Seller updateSeller(@PathVariable int sellerId,
+//                               @RequestParam(required = false) String first,
+//                               @RequestParam(required = false) String last) {
+//        return this.service.updateSeller(sellerId, first, last);
+//    }
 
 //    @GetMapping("/person/{id}")
 //    public ResponseEntity<?> getPerson(@PathVariable Integer id) {
