@@ -1,16 +1,23 @@
+import BookingForm from "../forms/BookingForm";
+import DisplayBookings from "../forms/DisplayBookings";
+
 
 const Managebooking = () => {
 
 
     return(
+        <>
+        <div className="manage-booking">
 
-        <div>
-
-        <p>Make a New Booking</p>
-        <p>List Bookings for a property</p>
-
+        <p className="formtitle">Book A Viewing</p>
+        <br />
+        <BookingForm />       
         </div>
 
+        <div>
+            <DisplayBookings />
+        </div>
+        </>
     );
 }
 
