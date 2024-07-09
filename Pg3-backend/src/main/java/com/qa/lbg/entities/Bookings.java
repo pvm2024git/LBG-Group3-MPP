@@ -3,6 +3,7 @@ package com.qa.lbg.entities;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 @Entity
 public class Bookings {
@@ -16,12 +17,12 @@ public class Bookings {
 
     private int buyerId;
 
-    private LocalDateTime date;
+    private ZonedDateTime date;
 
     public Bookings() {
     }
 
-    public Bookings(Integer bookingId, int propertyId, int buyerId, LocalDateTime date) {
+    public Bookings(Integer bookingId, int propertyId, int buyerId, ZonedDateTime date) {
         this.bookingId = bookingId;
         this.propertyId = propertyId;
         this.buyerId = buyerId;
@@ -44,11 +45,11 @@ public class Bookings {
         this.propertyId = propertyId;
     }
 
-    public LocalDateTime getDate() {
+    public ZonedDateTime getDate() {
         return date;
     }
 
-    public void setDate(LocalDateTime date) {
+    public void setDate(ZonedDateTime date) {
         this.date = date;
     }
 
