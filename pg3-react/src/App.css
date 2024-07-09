@@ -123,7 +123,7 @@ nav ul {
   
   }
 
-.sellerbutton, .buyerbutton  {
+.sellerbutton, .buyerbutton, .bookingbutton {
   text-align: center;
 }
 
@@ -162,7 +162,7 @@ nav ul {
 
 } 
 
-.reg-seller, .reg-buyer, .mng-property {
+.reg-seller, .reg-buyer, .mng-property, .manage-booking {
   padding: 10px;
   text-align: left;
   border-style: solid;

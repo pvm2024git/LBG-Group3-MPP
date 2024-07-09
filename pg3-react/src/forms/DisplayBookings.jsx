@@ -24,6 +24,7 @@ const Displaybookings = () => {
                     <tr>
                         <th>Property ID</th>
                         <th>Buyer ID</th>
+                        <th>Date & Time</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -31,6 +32,7 @@ const Displaybookings = () => {
                      <tr>
                         <td>{booking.propertyId}</td>
                         <td>{booking.buyerId}</td>
+                        <td>{booking.date}</td>
                      </tr>
                      ))}
                 </tbody>

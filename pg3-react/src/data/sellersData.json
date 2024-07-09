@@ -238,13 +238,85 @@
       "imageUrl": "https://t4.ftcdn.net/jpg/02/79/95/39/360_F_279953994_TmVqT7CQhWQJRLXev4oFmv8GIZTgJF1d.jpg"
     }
   ],
-
-  "bookings":[
-
+  "bookings": [
     {
       "propertyId": "1",
-      "buyerId": "2"
+      "buyerId": "2",
+      "id": "bbed"
+    },
+    {
+      "id": "5923",
+      "propertyId": "2",
+      "buyerId": "3"
+    },
+    {
+      "id": "7d13",
+      "propertyId": "4",
+      "buyerId": "5"
+    },
+    {
+      "id": "d5ac",
+      "propertyId": "5",
+      "buyerId": "6"
+    },
+    {
+      "id": "f18e",
+      "propertyId": "3",
+      "buyerId": "4",
+      "date": ""
+    },
+    {
+      "id": "515b",
+      "propertyId": "5",
+      "buyerId": "6",
+      "date": ""
+    },
+    {
+      "id": "e53d",
+      "propertyId": "2",
+      "buyerId": "3"
+    },
+    {
+      "id": "d676",
+      "propertyId": "1",
+      "buyerId": "3",
+      "date": "2024-07-11T23:00:00.000Z"
+    },
+    {
+      "id": "3ff8",
+      "propertyId": "5",
+      "buyerId": "6",
+      "date": "2024-07-12T16:00:00.000Z"
+    },
+    {
+      "id": "40b6",
+      "propertyId": "8",
+      "buyerId": "9",
+      "date": "2024-07-25T15:00:00.000Z"
+    },
+    {
+      "id": "96a4",
+      "propertyId": "3",
+      "buyerId": "8",
+      "date": "2024-07-30T17:00:00.000Z"
+    },
+    {
+      "id": "7ba7",
+      "propertyId": "6",
+      "buyerId": "7",
+      "date": "2024-08-02T18:00:00.000Z"
+    },
+    {
+      "id": "17d6",
+      "propertyId": "5",
+      "buyerId": "6",
+      "date": "2024-07-31T12:00:00.000Z"
+    },
+    {
+      "id": "8c2a",
+      "propertyId": "5",
+      "buyerId": "6",
+      "date": "2024-08-16T18:00:00.000Z"
     }
-
   ]
 }

@@ -1,12 +1,22 @@
 import { useState } from 'react';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
+
+
 
 const BookingForm = () => {
     const [propertyId, setPropertyId] = useState('');
     const [buyerId, setBuyerId] = useState('');
+    const [date, setDate] = useState('');
+
+   
+
+    
 
     const handlesubmit = (e) => {
         e.preventDefault();
-        const booking = { propertyId, buyerId }
+        const booking = { propertyId, buyerId, date}
 
         // fetch('http://localhost:8001/bookings/create',
         fetch('http://localhost:8000/bookings',
@@ -18,7 +28,9 @@ const BookingForm = () => {
         
         setPropertyId('');
         setBuyerId('');
-            
+        setDate('');
+        
+        
     }
 
     return (
@@ -35,6 +47,19 @@ const BookingForm = () => {
             <input type="text"
             required value={buyerId}
             onChange={(e) => setBuyerId(e.target.value)} />
+
+            <br /><br />
+
+            <label>Date & Time: </label>
+            
+            <DatePicker 
+            showTimeSelect
+            minTime={new Date(0, 0, 0, 10, 0)}
+            maxTime={new Date(0, 0, 0, 19, 0)}
+            selected={date}
+            onChange={(date) => setDate(date)}          
+            dateFormat="MMMM d, yyyy h:mmaa"/>
+            
 
             <br /><br />
             <div className='bookingbutton'>
