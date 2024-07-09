@@ -20,6 +20,7 @@ const Displaybuyers = () => {
             <table className="table-striped">
                 <thead>
                     <tr>
+                        <th>Buyer Id</th>
                         <th>First Name</th>
                         <th>Surname</th>
                     </tr>
@@ -27,6 +28,7 @@ const Displaybuyers = () => {
                 <tbody>
                      {buyers.map(buyer => (
                      <tr>
+                        <td>{buyer.buyerId}</td>
                         <td>{buyer.first}</td>
                         <td>{buyer.last}</td>
                      </tr>

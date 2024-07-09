@@ -21,6 +21,7 @@ const Displaysellers = () => {
             <table className="table-striped">
                 <thead>
                     <tr>
+                        <th>Seller Id</th>
                         <th>First Name</th>
                         <th>Surname</th>
                     </tr>
@@ -29,6 +30,7 @@ const Displaysellers = () => {
                     
                      {sellers.map(seller => (
                      <tr>
+                        <td>{seller.sellerId}</td>
                         <td>{seller.first}</td>
                         <td>{seller.last}</td>
                      </tr>
