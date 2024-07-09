@@ -2,6 +2,8 @@ package com.qa.lbg.entities;
 
 import jakarta.persistence.*;
 
+import java.time.LocalDateTime;
+
 @Entity
 public class Bookings {
 
@@ -10,19 +12,23 @@ public class Bookings {
     private Integer bookingId;
 
     //    @Column(name = "full_name", nullable = false, unique = true)
-    private String firstName;
+    private int propertyId ;
 
-    private String surname;
+    private int buyerId;
 
-    public Bookings() {}
+    private LocalDateTime date;
 
-    public Bookings(Integer bookingId, String firstName, String surname) {
-        this.bookingId = bookingId;
-        this.firstName = firstName;
-        this.surname = surname;
+    public Bookings() {
     }
 
-    public Integer getBuyerId() {
+    public Bookings(Integer bookingId, int propertyId, int buyerId, LocalDateTime date) {
+        this.bookingId = bookingId;
+        this.propertyId = propertyId;
+        this.buyerId = buyerId;
+        this.date = date;
+    }
+
+    public Integer getBookingId() {
         return bookingId;
     }
 
@@ -30,28 +36,37 @@ public class Bookings {
         this.bookingId = bookingId;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public int getPropertyId() {
+        return propertyId;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setPropertyId(int propertyId) {
+        this.propertyId = propertyId;
     }
 
-    public String getSurname() {
-        return surname;
+    public LocalDateTime getDate() {
+        return date;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setDate(LocalDateTime date) {
+        this.date = date;
+    }
+
+    public int getBuyerId() {
+        return buyerId;
+    }
+
+    public void setBuyerId(int buyerId) {
+        this.buyerId = buyerId;
     }
 
     @Override
     public String toString() {
-        return "Seller{" +
+        return "Bookings{" +
                 "Booking Id=" + bookingId +
-                ", First Name='" + firstName + '\'' +
-                ", Surname='" + surname + '\'' +
+                ", Property Id=" + propertyId +
+                ", Buyer Id=" + buyerId +
+                ", Date=" + date +
                 '}';
     }
 }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Moment from 'react-moment';
 
 
 const Displaybookings = () => {
@@ -6,8 +7,8 @@ const Displaybookings = () => {
 
   useEffect(() => {
     const fetchBookingData = async () => {
-    //   const response = await fetch('http://localhost:8001/bookings/getAll');
-    const response = await fetch('http://localhost:8000/bookings')
+      const response = await fetch('http://localhost:8001/bookings/getAll');
+    // const response = await fetch('http://localhost:8000/bookings')
       const data = await response.json();
       setBookings(data);
     
@@ -32,7 +33,8 @@ const Displaybookings = () => {
                      <tr>
                         <td>{booking.propertyId}</td>
                         <td>{booking.buyerId}</td>
-                        <td>{booking.date}</td>
+                        {/* <td>{booking.date}</td> */}
+                        <td><Moment format="dddd, DD/MM/YYYY, h:mm a">{booking.date}</Moment></td>
                      </tr>
                      ))}
                 </tbody>

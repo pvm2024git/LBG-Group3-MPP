@@ -48,7 +48,7 @@ public class Buyer {
 
     @Override
     public String toString() {
-        return "Seller{" +
+        return "Buyer{" +
                 "Buyer Id=" + buyerId +
                 ", First Name='" + first + '\'' +
                 ", Last Name ='" + last + '\'' +

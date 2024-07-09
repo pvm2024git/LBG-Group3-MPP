@@ -1,8 +1,9 @@
 package com.qa.lbg.repos;
 
-import com.qa.lbg.entities.Properties;
+import com.qa.lbg.entities.Bookings;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-public interface PropertiesRepo extends JpaRepository<Properties, Integer> {
+@Repository
+public interface BookingsRepo extends JpaRepository<Bookings, Integer> {
 }
