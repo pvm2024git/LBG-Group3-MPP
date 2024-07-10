@@ -131,28 +131,7 @@ nav ul {
   text-align: center;
 }
 
-.propsearch{
-  padding: 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 500px;
-  padding-right: 500px;
-  text-align: center;
-  border-style: solid;
-  width: fit-content;
-  border-color: rgb(29, 122, 60);
-  margin-right: 75px;
-  margin-top: 75px;
-  font-size: large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
-  background-color:rgb(182, 216, 193);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-   
-  
-}
+
 
 .items-grid { 
 
@@ -162,7 +141,7 @@ nav ul {
 
 } 
 
-.reg-seller, .reg-buyer, .mng-property, .manage-booking {
+.reg-seller, .reg-buyer, .manage-booking {
   padding: 10px;
   text-align: left;
   border-style: solid;
@@ -180,9 +159,45 @@ nav ul {
   
 }
 
-
+.mng-property, .propsearch {
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  /* margin-left: 160px; */
+  margin: auto;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:rgb(182, 216, 193); 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 1rem; 
   
-
+}
+  
+/* .propsearch{
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-right: 75px;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:rgb(182, 216, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+} */
 
 
 

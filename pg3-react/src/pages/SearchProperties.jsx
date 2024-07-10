@@ -38,9 +38,14 @@ const SearchProperties = () => {
   }, [searchCriteria]);
 
   return (
-    <div className="items-grid">
-      <h1 className="head-prop-search">Property Search</h1>
-      <PropertySearch setSearchCriteria={setSearchCriteria} />
+    <div className="">
+        {/* <h1 className="head-prop-search">Property Search</h1> */}
+        <div className="mng-property">
+          <p className="formtitle">Filter Property</p>
+          <br />
+            <PropertySearch setSearchCriteria={setSearchCriteria} />    
+          </div>
+
       <PropertyList properties={filteredProperties} />
     </div>
   );

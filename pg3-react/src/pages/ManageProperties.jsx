@@ -12,7 +12,7 @@ const ManageProperty =() => {
       return (
       <>
         <div className="mng-property">
-        <p>New Property Registration</p>
+        <p className="formtitle">New Property Registration</p>
         <br />
             <PropertyForm />       
         </div>
