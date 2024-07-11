@@ -35,6 +35,8 @@ const PropertySearch = ({ setSearchCriteria }) => {
           <label>Garden: </label>
           <input type="checkbox" checked={garden} onChange={(e) => setGarden(e.target.checked)} />
 
+          <br /><br />
+
           <button type="submit" className="propbutton">Search</button>
 
       </form>
